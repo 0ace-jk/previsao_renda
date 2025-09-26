@@ -20,7 +20,7 @@ Desenvolvido, principalmente, em 🐍 **Python** e implantado usando 👑 **Stre
 
 ❗ Lembrando que todas as bibliotecas necessárias estão descritas no [requirements.txt](.requirements.txt)
 
-# ❗ Importante dizer que esse projeto foi desenvolvido com o python 3.12. e NÃO FUNCIONARÁ utilizando versões mais recentes devido ao **ydata_profiling** atualmente só estar disponivel para essa versão do python.
+## ❗ Importante dizer que esse projeto foi desenvolvido com o python 3.12. e NÃO FUNCIONARÁ utilizando versões mais recentes devido ao **ydata_profiling** atualmente só estar disponivel para essa versão do python.
 
 Espero que esse projeto seja útil de alguma forma!! 
 
