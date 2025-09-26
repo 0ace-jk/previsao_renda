@@ -1,6 +1,6 @@
 # 🔨Projeto previsão de renda🔨
 
-[!Project Demo GIF(./assets/preview_streamlit_projeto_2.gif)]
+[![Project Demo GIF](./assets/preview_streamlit_projeto_2.gif)]
 
 ### ➡️ Nesse projeto vamos utilizar o *CRISP-DM* para analisar e criar um modelo para ajudar a prever a renda de clientes.
 
