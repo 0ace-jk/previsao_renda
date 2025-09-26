@@ -417,7 +417,7 @@ def view_preprocessamento():
     col_texto_a, col_texto_b, col_texto_c = st.columns([.1, 3, .1])
     col_texto_b.markdown(
         '''
-        ### Para saber exatamente como tudo foi pré-processado, veja o notebook [projeto-2.ipynb](https://github.com)  no GitHub.
+        ### Para saber exatamente como tudo foi pré-processado, veja o notebook [projeto-2.ipynb](https://github.com/0ace-jk/previsao_renda/blob/main/projeto-2.ipynb)  no GitHub.
         '''
     )
 
