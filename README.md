@@ -2,6 +2,10 @@
 
 [![Project Demo GIF](./assets/preview_streamlit_projeto_2.gif)]
 
+Veja o aplicativo online. [Streamlit APP](https://previsao-renda-acejk.streamlit.app/)
+
+Veja o notebook completo. [Jupyter notebook](.projeto_2.ipynb)
+
 ### ➡️ Nesse projeto vamos utilizar o *CRISP-DM* para analisar e criar um modelo para ajudar a prever a renda de clientes.
 
 ### ➡️ Por que isso é necessario?
