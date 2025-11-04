@@ -1,31 +1,63 @@
-# 🔨Projeto previsão de renda🔨
+# 🔨 Projeto de Previsão de Renda
 
-[![Project Demo GIF](./assets/preview_streamlit_projeto_2.gif)]
+[![Project Demo GIF](./assets/preview_streamlit_projeto_2.gif)](https://previsao-renda-acejk.streamlit.app/)
 
-Veja o aplicativo online. [Streamlit APP](https://previsao-renda-acejk.streamlit.app/)
+## 📝 Descrição
 
-Veja o notebook completo. [Jupyter notebook](.projeto_2.ipynb)
+Este projeto utiliza a metodologia *CRISP-DM* para desenvolver um modelo de previsão de renda de clientes. A análise e a modelagem são realizadas em um [Jupyter Notebook](.projeto_2.ipynb), e a solução final é apresentada em uma aplicação interativa com [Streamlit](https://previsao-renda-acejk.streamlit.app/).
 
-### ➡️ Nesse projeto vamos utilizar o *CRISP-DM* para analisar e criar um modelo para ajudar a prever a renda de clientes.
+A capacidade de prever a renda de clientes é um recurso valioso para instituições financeiras, auxiliando na tomada de decisões estratégicas e na gestão de riscos. Um modelo preciso pode ser um diferencial competitivo, otimizando a concessão de crédito e prevenindo a inadimplência.
 
-### ➡️ Por que isso é necessario?
+## 🚀 Como Executar Localmente
 
-- Saber o valor da renda de clientes para uma instituição financeira é extremamente necessário e muito valioso também.
-- Um modelo que alcance uma boa precisão pode ser determinante e, até mesmo, a diferença entre alcançar lucro ou se afundar com prejuízos de clientes inadimplentes
-- O uso de modelos de aprendizado de máquina tem sido cada vez mais comum entre diversas áreas.
+Siga os passos abaixo para configurar e executar o projeto em seu ambiente local.
 
-### ➡️ Dito isso, vamos ao projeto!
+**Pré-requisitos:**
+- Python 3.12.10
 
-Desenvolvido, principalmente, em 🐍 **Python** e implantado usando 👑 **Streamlit**.
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+   ```
 
-📖 Bibliotecas usadas para processamento de dados e criação dos modelos:
-- Pandas
-- Scikit Learn
+2. **Crie e ative um ambiente virtual:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Para Windows, use: venv\Scripts\activate
+   ```
 
-❗ Lembrando que todas as bibliotecas necessárias estão descritas no [requirements.txt](.requirements.txt)
+3. **Instale as dependências:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## ❗ Importante dizer que esse projeto foi desenvolvido com o python 3.12. e NÃO FUNCIONARÁ utilizando versões mais recentes devido ao **ydata_profiling** atualmente só estar disponivel para essa versão do python.
+4. **Execute a aplicação Streamlit:**
+   ```bash
+   streamlit run projeto_2.py
+   ```
 
-Espero que esse projeto seja útil de alguma forma!! 
+## 📊 Dados
 
-### python --version 3.12.10
+O modelo foi treinado com o conjunto de dados `previsao_de_renda.csv`, que contém informações socioeconômicas sobre os clientes. A variável alvo do modelo é a `renda`.
+
+**Principais variáveis utilizadas:**
+- `sexo`: Gênero do cliente.
+- `posse_de_veiculo`: Indica se o cliente possui veículo.
+- `posse_de_imovel`: Indica se o cliente possui imóvel.
+- `qtd_filhos`: Número de filhos do cliente.
+- `tipo_renda`: Fonte de renda (ex: Assalariado, Empresário).
+- `educacao`: Nível de escolaridade.
+- `estado_civil`: Estado civil do cliente.
+- `idade`: Idade do cliente.
+- `tempo_emprego`: Duração do emprego atual, em anos.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Linguagem:** Python 3.12
+- **Bibliotecas de Análise de Dados:** Pandas, Scikit-learn, ydata-profiling
+- **Visualização e Interface:** Streamlit
+
+**Nota importante:** Este projeto foi desenvolvido com a versão 3.12 do Python, pois a biblioteca `ydata-profiling` possui restrições de compatibilidade com versões mais recentes.
+
+Agradeço por seu interesse no projeto!
